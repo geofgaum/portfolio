@@ -92,12 +92,13 @@ nav {
   color: rgb(249, 255, 255);
 }
 .dropdown {
-  z-index: 100;
-  position: absolute;
+  z-index: 9999;
+  position: fixed;  
   top: 0;
-  transform: translateY(-500px);
+  left: 0;
   width: 100%;
   height: auto;
+  transform: translateY(-500px);
   backdrop-filter: brightness(40%) blur(3px);
   box-shadow: 0 0 20px black;
   transition: 0.2s linear;
@@ -272,4 +273,5 @@ section {
     width: 80%;
     margin-bottom: 0px;
   }
+
 }
